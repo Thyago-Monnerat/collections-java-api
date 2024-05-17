@@ -1,4 +1,4 @@
-package exercicios.operacoesBasicas.desafioSomaNumeros;
+package exercicios.operacoesBasicas.list.desafioSomaNumeros;
 import java.util.List;
 import java.util.ArrayList;
 

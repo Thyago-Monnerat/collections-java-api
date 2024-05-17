@@ -1,4 +1,4 @@
-package exercicios.operacoesBasicas;
+package exercicios.operacoesBasicas.list;
 
 public class Tarefa {
     //atributo

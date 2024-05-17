@@ -1,4 +1,4 @@
-package exercicios.operacoesBasicas.desafioOrdenarNumeros;
+package exercicios.operacoesBasicas.list.desafioOrdenarNumeros;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package exercicios.operacoesBasicas.desafioCarrinhoCompra;
+package exercicios.operacoesBasicas.list.desafioCarrinhoCompra;
 
 public class Item {
     private String nome;
