@@ -1,6 +1,10 @@
 package exercicios.operacoesBasicas.map.desafioLivraria;
 
-public class Livro implements Comparable<Livro>{
+import java.util.Comparator;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class Livro{
     private String titulo;
     private String autor;
     private double preco;
@@ -27,12 +31,13 @@ public class Livro implements Comparable<Livro>{
     public String toString() {
         return "Livro [titulo=" + titulo + ", autor=" + autor + ", preco=" + preco + "]";
     }
+}
+
+class ComparatorPreco implements Comparator<Map.Entry<String, Livro>>{
 
     @Override
-    public int compareTo(Livro l) {
-        return Double.compare(preco, l.getPreco());
+    public int compare(Entry<String, Livro> l1, Entry<String, Livro> l2) {
+       return Double.compare(l1.getValue().getPreco(), l2.getValue().getPreco());
     }
-
-   
-
+    
 }
